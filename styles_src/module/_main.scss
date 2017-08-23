@@ -1,0 +1,12 @@
+.main__title {
+  color: $primary-color;
+  font-size: 31px;
+  font-family: $secondary-font;
+  line-height: 1.4;
+
+  @media (max-width: 991px) {
+    margin: 25px 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "omdepex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "postcss-cssnext": "^3.0.2"
+  },
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC"
+}

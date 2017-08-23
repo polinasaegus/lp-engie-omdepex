@@ -1,0 +1,21 @@
+.l-container {
+  
+  @media (min-width: 992px) {
+    width: 970px;
+  }
+
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+}
+
+.flex-reverse {
+  @media (max-width: 991px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.container {
+  @extend .l-container;
+}

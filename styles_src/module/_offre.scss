@@ -1,0 +1,81 @@
+.offre {
+
+
+  @media (max-width: 991px) {
+    margin: 0;
+  }
+
+  @media (min-width: 992px) {
+      padding-bottom: 50px;
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__ou{
+     @media (max-width: 992px) {
+       top:0;
+     }
+    text-align: center;
+    position: relative;
+    top:30%;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+
+  &__intro {
+    margin-bottom: 40px;
+    text-align: center;
+
+    @media (max-width: 991px) {
+      margin: 0;
+      text-align: left;
+    }
+  }
+
+  &__baseline-title {
+    margin: 0;
+    font-size: 26px;
+    font-family: $secondary-font;
+    color: rgba(227,65,0,0.6);
+
+    @media (max-width: 991px) {
+      font-size: 20px;
+      margin: 25px auto;
+      line-height: 30px;
+    }
+  }
+
+  &__item {
+    text-align: center;
+    background-color: $white;
+    padding: 30px;
+    box-shadow: 0 5px 14px rgba(218, 218, 218, 41);
+
+    @media (min-width: 992px) {
+      width: 45%;
+    }
+
+    @media (max-width: 991px) {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  }
+
+  &__icon {
+    height: 60px;
+  }
+  &__title {
+    font-size: 28px;
+    line-height: 1.4;
+    font-family: $secondary-font;
+    color: $primary-color;
+    text-align: left;
+
+    @media (max-width: 991px) {
+      //font-size: 24px;
+    }
+  }
+}

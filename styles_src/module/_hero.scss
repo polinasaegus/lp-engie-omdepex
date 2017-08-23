@@ -1,0 +1,159 @@
+.hero {
+  color: $white;
+  background-color: #64AFAE;
+  
+  
+  @media (min-width: 992px) {
+    background-image: url(../images/hero-bg-mask.png), url(../images/hero-bg.png); 
+    background-position: left, right;
+    background-size: 70% 100%, cover;
+    background-repeat: no-repeat;
+  }
+
+  /* 
+  * Container 
+  */
+  &__container {
+    @media (max-width: 991px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  /* 
+  * Head 
+  */
+  &__head {
+
+    font-family: $secondary-font;
+    //dow: 0 2px 4px rgba(#08274B,0.5);
+    margin-top: 0;
+
+    @media (min-width: 992px) {
+      line-height: 38px;
+    }
+
+    @media (max-width: 991px) {
+      line-height: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  &__first-title {
+
+    @media (min-width: 992px) {
+      font-size: 37px; /* convert to em */
+    }
+
+    /* Small devices (tablets, 768px and up) */
+    @media (max-width: 768px) {
+      font-size: 29px;
+    }
+  }
+
+  &__second-title {
+    @media (min-width: 992px) {
+      font-size: 26px; /* convert to em */
+    }
+
+    @media (max-width: 991px) {
+      font-size: 18px;
+    }
+  }
+
+  /* 
+  * Body 
+  */
+  &__body {
+    color: #ffffff;
+    font-family: $primary-font;
+    margin: 20px 0 90px 0;
+    line-height: 24px;
+    font-size: 16px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 40px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    p { 
+      margin: 0; 
+    }
+  }
+
+  
+  /* 
+  * Footer 
+  */
+  &__footer {
+    color: $white;
+    margin-bottom: 6em;
+
+    @media (max-width: 991px) {
+      margin: 20px 0 10px 0;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    strong {
+      font-size: 18px;
+      @media (max-width: 991px) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  &__price-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__price-value {
+    font-size: 46px;
+    font-family: $secondary-font;
+    margin-right: 0.2em;
+    background: -webkit-linear-gradient(left, $price-gradient-to, $price-gradient-from);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &__price-currency {
+    font-family: 'Lucida Grande';
+  }
+
+  &__price-month {
+    font-family: $secondary-font;
+    font-size: 16px;
+    background: -webkit-linear-gradient(left, $price-gradient-to, $price-gradient-from);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+  }
+
+  &__price-year {
+    font-family: $primary-font;
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+.engie-logo {
+  padding-top: 3.45em;
+  margin-bottom: 5em;
+
+  @media (max-width: 991px) {
+    margin-bottom: 50px;
+  } 
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}

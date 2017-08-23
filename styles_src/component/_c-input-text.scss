@@ -1,0 +1,18 @@
+input {
+  width: 100%;
+  padding: 5px 12px;
+  color: $black;
+  position: relative;
+  border: 1px solid $input-border-color;
+
+  &:focus {
+    outline: 1px solid $input-border-color;
+    box-shadow: none;
+  }
+
+  &.active {
+    outline: 1px solid $price-gradient-to;
+    border-color: $price-gradient-from;
+  }
+}
+

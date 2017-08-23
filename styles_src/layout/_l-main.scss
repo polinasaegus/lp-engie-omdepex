@@ -1,0 +1,75 @@
+.l-main {
+  padding-top: 70px;
+  padding-bottom: 110px;
+  position: relative;
+
+  @media (max-width: 991px) {
+    padding: 0;
+  }
+
+  &.avantages,
+  &.breakdown, 
+  &.options {
+    .engie-btn--primary {
+      @media (max-width: 991px) {
+        width: 100%;
+        margin: 10px 0px 20px 0px;
+      }
+    }
+  }
+
+  &.avantages {
+
+    @media (min-width: 992px) {
+     padding-top: 0;
+    }
+
+    .main__title {
+      @media (min-width: 992px) {
+        position: relative;
+        top: 100px;
+      }
+    }
+    .engie-btn--primary {
+
+      @media (min-width: 992px) {
+        position: absolute;
+        bottom: -30px;
+        z-index: $index-upper;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  
+}
+
+
+
+.breakdown {
+  color: $white;
+  background: linear-gradient(120.59deg, #65B9B9 0%, #71CDC6 100%);
+  .main__title {
+    color: $white;
+    font-size: 34px;
+    margin-bottom: 65px;
+
+    @media (max-width: 991px) {
+      font-size: 19px;
+      line-height: 30px;
+      margin-bottom: 30px;
+    }
+
+  }                    
+  &__item {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 50px;
+
+    @media (max-width: 991px) {
+      margin-bottom: 30px;
+    }
+  }
+
+}

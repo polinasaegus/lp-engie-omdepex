@@ -1,0 +1,35 @@
+$icon-font-path: '../fonts/';
+// node:scss
+//@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endnode
+
+@import "variables";
+@import "fonts";
+
+@import "base/base";
+
+@import "layout/l-main";
+@import "layout/l-container";
+
+@import "component/c-input-radio";
+@import "component/c-input-text";
+
+@import "module/cartouche";
+@import "module/offre";
+@import "module/hero";
+@import "module/form";
+@import "module/list";
+@import "module/main";
+@import "module/custom-counter";
+@import "module/footer";
+@import "module/confirmation";
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+

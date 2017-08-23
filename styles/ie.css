@@ -1,0 +1,123 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+    .radiobutton {
+        width: 100%;
+    }
+
+    .radiobutton__ie {
+        width: 40%;
+        margin-right: 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .radiobutton__ie input[type="radio"] {
+        display: inline-block;
+    }
+
+    .radiobutton__ie input[type="radio"],
+    .radiobutton input[type="radio"] {
+        display: inline-block;
+        position: static;
+        z-index: 0;
+        visibility: visible;
+        border: 1px solid transparent;
+        width: auto;
+        margin: 5px 0 0 0;
+        padding: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    input {
+        height: 40px;
+    }
+
+    .radiobutton__ie input[type=radio]+label:before,
+    .radiobutton input[type=radio]+label:before {
+        display: none;
+    }
+
+    .radiobutton input[type="radio"]+label {
+        padding: 0;
+        margin-top: -16px;
+        margin-left: 5px;
+    }
+
+    .radiobutton__ie input[type="radio"]+label {
+        padding: 0;
+        margin-top: -10px;
+        margin-left: 5px;
+    }
+
+    .radiobutton__ie input[type="radio"]:focus,
+    .radiobutton input[type="radio"]:focus {
+        outline: none;
+    }
+
+    .radiobutton__ie label,
+    .radiobutton label {
+        display: inline-block;
+        margin-left: 10px;
+        padding-left: 50px;
+        margin: 0;
+        max-width: auto;
+    }
+
+    .radiobutton {
+        margin-bottom: 10px;
+    }
+
+
+    .radiobutton label {
+        width: 80%;
+    }
+
+    .radiobutton__ie label {
+        width: auto;
+    }
+
+     button {
+         background-image: -ms-linear-gradient(right, #4C7CA6, #12436D);
+
+     }
+     .breakdown {
+
+             background-image: -ms-linear-gradient(120.59deg, #4C7CA6 0%, #12436D 100%);
+     }
+
+     .hero__price-value {
+        color: #77D3FF;
+    }
+
+     .engie-btn--primary {
+         background-image: -ms-linear-gradient(right,#4C7CA6, #12436D);
+     }
+
+     .icon-check,
+     .list__item {
+         display: inline-block;
+     }
+    
+     .list__item {
+         width: 100%;
+     }
+
+     .icon-check,
+     .list__item div {
+         display: inline-block;
+         float: left;
+     }
+    
+     .list__item div {
+         width: 80%;
+     }
+    
+     .form__bg {
+         z-index: -1;
+     }
+    .hero__price-year, .hero__price-month{
+        margin-left: 20px;
+        
+    }
+}

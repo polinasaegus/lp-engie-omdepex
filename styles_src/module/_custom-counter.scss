@@ -1,0 +1,19 @@
+.custom-counter {
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  list-style-type: none;
+
+
+  li {
+    counter-increment: step-counter;
+
+    &:before {
+      
+      content: counter(step-counter) ". ";
+      font-size: 20px;
+      color: white;
+      font-family: $secondary-font;
+    }
+  }
+}
